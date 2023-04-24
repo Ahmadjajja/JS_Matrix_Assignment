@@ -42,20 +42,7 @@ function createMatrixP(m, n, A) {
   return P;
 }
 
-// let m = 3;
-// let n = 4;
 
-// let m = prompt("Enter a number:");
-// let n = prompt("Enter a number:");
-
-// let A = [
-//   [12, -3, 2, 14],
-//   [11, -2, -8, 4],
-//   [3, 0, 0, -5],
-// ];
-
-// let P = createMatrixP(m, n, A);
-// console.log(P);
 
 const readline = require("readline").createInterface({
   input: process.stdin,
